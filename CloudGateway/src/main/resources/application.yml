@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+      - id: CustomerService
+        uri: http://localhost:6001/
+        predicates:
+        - Path=/customers/**
+      - id: PaymentService
+        uri: http://localhost:6002/
+        predicates:
+        - Path=/payments/**
+      - id: ProductService1
+        uri: http://localhost:6003/
+        predicates:
+        - Path=/products/**
+      - id: ProductService2
+        uri: http://localhost:6006/
+        predicates:
+        - Path=/products/**
+      - id: OrderCommandService
+        uri: http://localhost:6004/
+        predicates:
+        - Path=/order/**
+      - id: OrderQueryService
+        uri: http://localhost:6005/
+        predicates:
+        - Path=/orders/**
+
+server:
+  port: 8090
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8765/eureka/, http://localhost:8762/eureka/
+            
+
+
+
+

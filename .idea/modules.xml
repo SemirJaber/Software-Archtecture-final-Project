@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Eurekaserver1/EurekaServer.iml" filepath="$PROJECT_DIR$/Eurekaserver1/EurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eurekaserver2/EurekaServer (1).iml" filepath="$PROJECT_DIR$/Eurekaserver2/EurekaServer (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/RestClient/RestClient.iml" filepath="$PROJECT_DIR$/RestClient/RestClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PaymentService/SA-project.iml" filepath="$PROJECT_DIR$/PaymentService/SA-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomerService/SA-project (1).iml" filepath="$PROJECT_DIR$/CustomerService/SA-project (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProductService1/SA-project (2).iml" filepath="$PROJECT_DIR$/ProductService1/SA-project (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProductService2/SA-project (3).iml" filepath="$PROJECT_DIR$/ProductService2/SA-project (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/OrderQueryService/SA-project (4).iml" filepath="$PROJECT_DIR$/OrderQueryService/SA-project (4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/OrderCommandService/SA-project (5).iml" filepath="$PROJECT_DIR$/OrderCommandService/SA-project (5).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SAProject.iml" filepath="$PROJECT_DIR$/.idea/SAProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CloudGateway/cloudgateway.iml" filepath="$PROJECT_DIR$/CloudGateway/cloudgateway.iml" />
+    </modules>
+  </component>
+</project>
